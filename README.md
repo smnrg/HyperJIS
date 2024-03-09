@@ -49,7 +49,7 @@ The HyperJIS keyboard layout is licensed under the [GNU General Public License v
 
 ## Acknowledgements
 
-HyperJIS was inspired by various keyboard layout projects and builds upon the work of the mechanical keyboard community. Special thanks to the creator of Karabiner Elements for this invaluable tool.
+Special thanks to the creator of Karabiner Elements for this invaluable tool.
 
 ## Contact
 
