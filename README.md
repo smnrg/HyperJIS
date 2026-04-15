@@ -74,18 +74,34 @@ The Romance base file handles grave and acute accents on all five vowels. That a
 
 You need macOS, [Karabiner-Elements](https://karabiner-elements.pqrs.org/), and a JIS Apple keyboard.
 
-### One-click import
+### Import into Karabiner
 
-Click to add rules directly to Karabiner-Elements:
+Copy any of these URLs and paste them into your browser's address bar. Karabiner-Elements will open and offer to import the rules.
 
 **Core layout:**
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-core.json">Install core layout</a>
+```
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-core.json
+```
 
-**Accents:**
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-romance.json">Romance base</a> ·
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-french.json">French</a> ·
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-spanish.json">Spanish</a> ·
-<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-german.json">German</a>
+**Romance base** (Italian, Spanish, Portuguese, French grave/acute):
+```
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-romance.json
+```
+
+**French extension** (circumflex, ç, œ):
+```
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-french.json
+```
+
+**Spanish extension** (ñ, ¡, ¿):
+```
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-spanish.json
+```
+
+**German extension** (ä, ö, ü, ß):
+```
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-german.json
+```
 
 After importing, open Karabiner-Elements, go to Complex Modifications, click Add Rule, and enable what you want. Each rule is independent.
 
