@@ -76,16 +76,16 @@ You need macOS, [Karabiner-Elements](https://karabiner-elements.pqrs.org/), and 
 
 ### One-click import
 
-Click to add rules to Karabiner:
+Click to add rules directly to Karabiner-Elements:
 
 **Core layout:**
-[Install core](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-core.json)
+<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-core.json">Install core layout</a>
 
 **Accents:**
-[Romance base](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-romance.json) ·
-[French](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-french.json) ·
-[Spanish](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-spanish.json) ·
-[German](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-german.json)
+<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-romance.json">Romance base</a> ·
+<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-french.json">French</a> ·
+<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-spanish.json">Spanish</a> ·
+<a href="karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/smnrg/HyperJIS/main/json/hyperjis-accents-german.json">German</a>
 
 After importing, open Karabiner-Elements, go to Complex Modifications, click Add Rule, and enable what you want. Each rule is independent.
 
