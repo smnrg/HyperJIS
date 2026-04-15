@@ -5,9 +5,6 @@
       "description": "Grave and acute accents on all vowels (Fn + vowel, double-tap to swap)",
       "manipulators": [
         {
-          "comment": "--- LETTER E (Lower: è/é) ---"
-        },
-        {
           "type": "basic",
           "conditions": [
             {
@@ -96,9 +93,6 @@
               }
             ]
           }
-        },
-        {
-          "comment": "--- LETTER E (Upper: È/É) ---"
         },
         {
           "type": "basic",
@@ -199,9 +193,6 @@
           }
         },
         {
-          "comment": "--- LETTER A (Lower: à/á) ---"
-        },
-        {
           "type": "basic",
           "conditions": [
             {
@@ -290,9 +281,6 @@
               }
             ]
           }
-        },
-        {
-          "comment": "--- LETTER A (Upper: À/Á) ---"
         },
         {
           "type": "basic",
@@ -393,9 +381,6 @@
           }
         },
         {
-          "comment": "--- LETTER I (Lower: ì/í) ---"
-        },
-        {
           "type": "basic",
           "conditions": [
             {
@@ -484,9 +469,6 @@
               }
             ]
           }
-        },
-        {
-          "comment": "--- LETTER I (Upper: Ì/Í) ---"
         },
         {
           "type": "basic",
@@ -587,9 +569,6 @@
           }
         },
         {
-          "comment": "--- LETTER O (Lower: ò/ó) ---"
-        },
-        {
           "type": "basic",
           "conditions": [
             {
@@ -678,9 +657,6 @@
               }
             ]
           }
-        },
-        {
-          "comment": "--- LETTER O (Upper: Ò/Ó) ---"
         },
         {
           "type": "basic",
@@ -781,9 +757,6 @@
           }
         },
         {
-          "comment": "--- LETTER U (Lower: ù/ú) ---"
-        },
-        {
           "type": "basic",
           "conditions": [
             {
@@ -872,9 +845,6 @@
               }
             ]
           }
-        },
-        {
-          "comment": "--- LETTER U (Upper: Ù/Ú) ---"
         },
         {
           "type": "basic",
@@ -980,9 +950,6 @@
       "description": "Typography: Euro, guillemets, smart quotes",
       "manipulators": [
         {
-          "comment": "--- Euro Symbol (€) = Fn + 4 (Shift optional) ---"
-        },
-        {
           "type": "basic",
           "from": {
             "key_code": "4",
@@ -1005,9 +972,6 @@
               ]
             }
           ]
-        },
-        {
-          "comment": "--- Caporali (« ») = Fn + comma/period ---"
         },
         {
           "type": "basic",
@@ -1055,9 +1019,6 @@
               ]
             }
           ]
-        },
-        {
-          "comment": "--- Smart Quotes (“ ”) = Fn + Brackets ---"
         },
         {
           "type": "basic",
