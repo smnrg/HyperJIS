@@ -21,7 +21,8 @@ I've been running this config for years. It's called HyperJIS.
 The core idea is a modifier cascade. Each key does double duty:
 
 ```
-Caps Lock           →  Fn
+Caps Lock (tap)     →  Escape
+Caps Lock (hold)    →  Control
 Space (hold)        →  Control
 Left Control (tap)  →  Escape
 Left Option         →  Hyper (⌃⌥⇧⌘)
@@ -30,7 +31,7 @@ Eisuu (英数)         →  Command
 Kana (かな)          →  Command
 ```
 
-If you read that list, Command ends up under your thumbs. Control is under your right thumb when you hold Space. Escape is a quick tap on the left pinky. Hyper (all four modifiers at once) is where Option used to be, ready for Raycast or Keyboard Maestro bindings.
+If you read that list, Command ends up under your thumbs. Control is under both Caps Lock (hold) and Space (hold), so you have two ways to reach it. Escape is a quick tap on Caps Lock. Hyper (all four modifiers at once) is where Option used to be, ready for Raycast or Keyboard Maestro bindings.
 
 Then there's Vim navigation. Hold Ctrl (which is Space, remember) and press H, J, K, L for arrow keys. I do this hundreds of times a day. Selecting text, jumping between fields, navigating code. My fingers never leave the home row.
 
@@ -40,7 +41,7 @@ With arrows handled by HJKL, the physical arrow keys are free. I use Swish to ma
 
 I type in Italian regularly, and accented vowels (è, à, ù, and friends) show up constantly. Switching macOS input sources every time I need one breaks my flow: the menu bar changes, shortcuts shift, and I have to think about which layout I'm in instead of what I'm writing.
 
-HyperJIS uses Fn as an accent trigger. Hold Fn (which is Caps Lock, since we remapped it), tap a vowel, and you get the grave accent: è, à, ì, ò, ù. Tap the same combo again quickly and it swaps to acute: é, á, í, ó, ú. Grave-first makes sense for Italian, where grave accents are far more common. The swap is there for the few words that need acute (perché, sé).
+HyperJIS uses the physical Fn key as an accent trigger. Hold Fn, tap a vowel, and you get the grave accent: è, à, ì, ò, ù. Tap the same combo again quickly and it swaps to acute: é, á, í, ó, ú. Grave-first makes sense for Italian, where grave accents are far more common. The swap is there for the few words that need acute (perché, sé).
 
 I also mapped Fn+4 to €, Fn+comma and Fn+period to « and », and Fn+brackets to smart quotes. Small things, but they add up when you're writing in a Romance language on a US-style keyboard.
 
@@ -74,7 +75,7 @@ Each rule can be turned on or off individually. Try the full set, then pare back
 
 ## Who this is for
 
-People who use Apple JIS keyboards, code, and type in more than one language. It's opinionated: you lose Caps Lock (it becomes Fn), you lose the physical Escape key (it becomes screenshot, and you get Escape back through Control tap), and you need to learn the modifier cascade. If those tradeoffs don't work for you, individual rules still work standalone. The Vim navigation and Space-as-Control rules are useful on any keyboard, JIS or not.
+People who use Apple JIS keyboards, code, and type in more than one language. It's opinionated: you lose Caps Lock (it becomes Escape on tap, Control on hold), you lose the physical Escape key (it becomes screenshot), and you need to learn the modifier cascade. If those tradeoffs don't work for you, individual rules still work standalone. The Vim navigation and Space-as-Control rules are useful on any keyboard, JIS or not.
 
 [GitHub: smnrg/HyperJIS](https://github.com/smnrg/HyperJIS)
 

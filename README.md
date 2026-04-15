@@ -22,7 +22,8 @@ I've been using this setup for years. I called it HyperJIS.
 
 | Physical key | What it becomes |
 |---|---|
-| Caps Lock | Fn |
+| Caps Lock (tap) | Escape |
+| Caps Lock (hold) | Control |
 | Space (hold) | Control |
 | Left Control (tap) | Escape |
 | Left Control (hold) | Control |
@@ -36,10 +37,11 @@ I've been using this setup for years. I called it HyperJIS.
 | Ctrl + H/J/K/L | Arrow keys (Vim) |
 | ¥ (International3) | `` ` `` / `~` |
 | International1 (ろ) | Emoji picker |
-| Escape | Screenshot (⇧⌘4) |
+| Escape (tap) | Screenshot (⇧⌘4) |
+| Escape (hold) | ⌃⌥⇧⌘W |
 | Arrow keys | Fn+HJKL (frees arrows for tiling) |
 
-The modifier cascade puts Command under your thumbs (Eisuu/Kana), Control under your right thumb (hold Space), Escape under your left pinky (tap Control), and Hyper under your left ring finger (Option). Your hands stay on the home row.
+The modifier cascade puts Command under your thumbs (Eisuu/Kana), Control under both Caps Lock (hold) and Space (hold), Escape on Caps Lock (tap), and Hyper under your left ring finger (Option). Your hands stay on the home row.
 
 ### Window tiling
 

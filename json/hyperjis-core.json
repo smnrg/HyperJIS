@@ -2,7 +2,7 @@
   "title": "HyperJIS — Core Layout (JIS → US + Vim + Hyper + Tiling)",
   "rules": [
     {
-      "description": "HyperJIS: Caps Lock → Fn",
+      "description": "HyperJIS: Caps Lock — tap for Escape, hold for Control",
       "manipulators": [
         {
           "type": "basic",
@@ -10,7 +10,8 @@
             "key_code": "caps_lock",
             "modifiers": { "optional": ["any"] }
           },
-          "to": [{ "key_code": "fn" }]
+          "to_if_alone": [{ "key_code": "escape" }],
+          "to_if_held_down": [{ "key_code": "left_control" }]
         }
       ]
     },
@@ -186,12 +187,13 @@
       ]
     },
     {
-      "description": "HyperJIS: Escape → Screenshot (⇧⌘4)",
+      "description": "HyperJIS: Escape — tap for Screenshot (⇧⌘4), hold for ⌃⌥⇧⌘W",
       "manipulators": [
         {
           "type": "basic",
           "from": { "key_code": "escape" },
-          "to": [{ "key_code": "4", "modifiers": ["left_shift", "left_command"] }]
+          "to_if_alone": [{ "key_code": "4", "modifiers": ["left_shift", "left_command"] }],
+          "to_if_held_down": [{ "key_code": "w", "modifiers": ["left_control", "left_option", "left_shift", "left_command"] }]
         }
       ]
     },
