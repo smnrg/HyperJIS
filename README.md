@@ -2,7 +2,7 @@
 
 A Karabiner-Elements config that uses the extra keys on an Apple JIS keyboard to build a US-compatible layout with a Hyper key, Vim navigation, window tiling, and modular accent support for Italian, French, Spanish, and German.
 
-![HyperJIS Keyboard Diagram](docs/hyperjis-diagram.svg)
+![HyperJIS Keyboard Diagram](hyperjis-diagram.svg)
 
 ---
 
