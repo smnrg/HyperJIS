@@ -22,8 +22,7 @@ I've been using this setup for years. I called it HyperJIS.
 
 | Physical key | What it becomes |
 |---|---|
-| Caps Lock (tap) | Escape |
-| Caps Lock (hold) | Control |
+| Caps Lock | Fn |
 | Space (hold) | Control |
 | Left Control (tap) | Escape |
 | Left Control (hold) | Control |
@@ -41,7 +40,7 @@ I've been using this setup for years. I called it HyperJIS.
 | Escape (hold) | ⌃⌥⇧⌘W |
 | Arrow keys | Fn+HJKL (frees arrows for tiling) |
 
-The modifier cascade puts Command under your thumbs (Eisuu/Kana), Control under both Caps Lock (hold) and Space (hold), Escape on Caps Lock (tap), and Hyper under your left ring finger (Option). Your hands stay on the home row.
+The modifier cascade puts Command under your thumbs (Eisuu/Kana), Control under your right thumb (hold Space), Escape under your left pinky (tap Control), and Hyper under your left ring finger (Option). Your hands stay on the home row. If you also set macOS to map Caps Lock → Control (System Settings → Keyboard → Modifier Keys), Caps Lock becomes a second Escape/Control key alongside Left Control.
 
 ### Window tiling
 
@@ -110,6 +109,17 @@ After importing, open Karabiner-Elements, go to Complex Modifications, click Add
 ### Manual install
 
 Download the JSON files from [`json/`](json/) and copy them to `~/.config/karabiner/assets/complex_modifications/`. Then enable rules in Karabiner.
+
+## Setup notes
+
+**Caps Lock as Escape/Control** (recommended): Set System Settings → Keyboard → Keyboard Shortcuts → Modifier Keys → Caps Lock → **Control**. Combined with the HyperJIS rule "Left Control: tap=Escape, hold=Control," this gives you Escape on Caps Lock tap and Control on hold. Without this, Caps Lock just becomes Fn.
+
+**Fn key for language switching**: The Fn tap sends the native macOS Globe key signal. For language switching to work, you need:
+
+1. Two or more input sources installed (System Settings → Keyboard → Input Sources → click +)
+2. Globe key set to Change Input Source (System Settings → Keyboard → "Press 🌐 key to" → Change Input Source)
+
+Without these, the Fn tap does nothing visible. Hold still gives you Hyper.
 
 ## FAQ
 
