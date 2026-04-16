@@ -145,9 +145,7 @@ HyperJIS/
 │   ├── hyperjis-accents-french.json
 │   ├── hyperjis-accents-spanish.json
 │   └── hyperjis-accents-german.json
-├── docs/
-│   ├── hyperjis-diagram.svg
-│   └── ke-submission-notes.md
+├── hyperjis-diagram.svg
 ├── README.md
 └── LICENSE
 ```
