@@ -2,7 +2,7 @@
   "title": "HyperJIS Accents: Spanish Extension (Ñ + Inverted Punctuation)",
   "rules": [
     {
-      "description": "Spanish characters (Fn + n/1//)",
+      "description": "HyperJIS: Spanish characters (Fn + n/1//)",
       "manipulators": [
         {
           "type": "basic",

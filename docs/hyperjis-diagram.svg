@@ -16,11 +16,11 @@
       .t-nav-f { fill: #633806; }
       .t-spc-f { fill: #26215C; }
       .t-acc-f { fill: #4B1528; }
-      .t-title { font-size: 16px; font-weight: 600; fill: #2C2C2A; text-anchor: middle; }
-      .t-legend { font-size: 10px; fill: #5F5E5A; }
+      .t-title { font-size: 16px; font-weight: 600; fill: #888780; text-anchor: middle; }
+      .t-legend { font-size: 10px; fill: #888780; }
       .t-cascade-label { font-size: 10px; fill: #888780; text-anchor: end; font-family: monospace; }
-      .t-cascade-val { font-size: 10px; fill: #2C2C2A; font-weight: 600; font-family: monospace; }
-      .t-cascade-arrow { font-size: 10px; fill: #B4B2A9; }
+      .t-cascade-val { font-size: 10px; fill: #B4B2A9; font-weight: 600; font-family: monospace; }
+      .t-cascade-arrow { font-size: 10px; fill: #888780; }
       @media (prefers-color-scheme: dark) {
         .k-mod { fill: #0a3d31; stroke: #1D9E75; }
         .k-nav { fill: #3d2a08; stroke: #BA7517; }
@@ -34,11 +34,6 @@
         .t-nav-f { fill: #FAC775; }
         .t-spc-f { fill: #CECBF6; }
         .t-acc-f { fill: #F4C0D1; }
-        .t-title { fill: #E8E6DD; }
-        .t-legend { fill: #888780; }
-        .t-cascade-label { fill: #888780; }
-        .t-cascade-val { fill: #E8E6DD; }
-        .t-cascade-arrow { fill: #5F5E5A; }
       }
     </style>
   </defs>
@@ -144,7 +139,7 @@
 
   <!-- ===== ROW 3: ASDF (home row) ===== y=148 -->
   <rect x="14" y="148" width="64" height="36" class="k k-mod"/>
-  <text class="t-func t-mod-f" x="46" y="162" style="font-size:8px">Esc/Ctrl</text>
+  <text class="t-func t-mod-f" x="46" y="162">Fn</text>
   <text class="t-phys" x="46" y="175">⇪ Caps</text>
 
   <rect x="82" y="148" width="40" height="36" class="k k-acc"/>
@@ -274,21 +269,21 @@
   <line x1="40" y1="284" x2="740" y2="284" stroke="#D3D1C7" stroke-width="0.5" stroke-dasharray="4 3"/>
   <text class="t-title" x="390" y="310" style="font-size:13px">Modifier cascade</text>
 
-  <text class="t-cascade-label" x="200" y="335">Caps Lock (tap)</text>
+  <text class="t-cascade-label" x="200" y="335">Caps Lock</text>
   <text class="t-cascade-arrow" x="210" y="335">→</text>
-  <text class="t-cascade-val" x="225" y="335">Escape</text>
+  <text class="t-cascade-val" x="225" y="335">Fn</text>
 
-  <text class="t-cascade-label" x="200" y="352">Caps Lock (hold)</text>
+  <text class="t-cascade-label" x="200" y="352">Space (hold)</text>
   <text class="t-cascade-arrow" x="210" y="352">→</text>
   <text class="t-cascade-val" x="225" y="352">Control</text>
 
-  <text class="t-cascade-label" x="200" y="369">Space (hold)</text>
+  <text class="t-cascade-label" x="200" y="369">Left Control (tap)</text>
   <text class="t-cascade-arrow" x="210" y="369">→</text>
-  <text class="t-cascade-val" x="225" y="369">Control</text>
+  <text class="t-cascade-val" x="225" y="369">Escape</text>
 
-  <text class="t-cascade-label" x="200" y="386">Left Control (tap)</text>
+  <text class="t-cascade-label" x="200" y="386">Left Control (hold)</text>
   <text class="t-cascade-arrow" x="210" y="386">→</text>
-  <text class="t-cascade-val" x="225" y="386">Escape</text>
+  <text class="t-cascade-val" x="225" y="386">Control</text>
 
   <text class="t-cascade-label" x="200" y="403">Left Option</text>
   <text class="t-cascade-arrow" x="210" y="403">→</text>

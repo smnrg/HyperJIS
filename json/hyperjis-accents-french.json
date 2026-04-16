@@ -2,7 +2,7 @@
   "title": "HyperJIS Accents: French Extension (Circumflex + Cedilla + Ligatures)",
   "rules": [
     {
-      "description": "French circumflex vowels (Fn + Option + vowel)",
+      "description": "HyperJIS: French circumflex vowels (Fn + Option + vowel)",
       "manipulators": [
         {
           "type": "basic",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "description": "French cedilla and ligatures (Fn + c/q)",
+      "description": "HyperJIS: French cedilla and ligatures (Fn + c/q)",
       "manipulators": [
         {
           "type": "basic",

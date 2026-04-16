@@ -21,17 +21,17 @@ I've been running this config for years. It's called HyperJIS.
 The core idea is a modifier cascade. Each key does double duty:
 
 ```
-Caps Lock (tap)     →  Escape
-Caps Lock (hold)    →  Control
+Caps Lock           →  Fn
 Space (hold)        →  Control
 Left Control (tap)  →  Escape
+Left Control (hold) →  Control
 Left Option         →  Hyper (⌃⌥⇧⌘)
 Left Command        →  Option
 Eisuu (英数)         →  Command
 Kana (かな)          →  Command
 ```
 
-If you read that list, Command ends up under your thumbs. Control is under both Caps Lock (hold) and Space (hold), so you have two ways to reach it. Escape is a quick tap on Caps Lock. Hyper (all four modifiers at once) is where Option used to be, ready for Raycast or Keyboard Maestro bindings.
+If you read that list, Command ends up under your thumbs. Control sits under your right thumb when you hold Space. Escape is a quick tap on Left Control. Hyper (all four modifiers at once) lives where Option used to be, ready for Raycast or Keyboard Maestro bindings. I also recommend setting macOS to map Caps Lock → Control (System Settings → Keyboard → Modifier Keys), which gives you Caps Lock as a second Escape/Control key.
 
 Then there's Vim navigation. Hold Ctrl (which is Space, remember) and press H, J, K, L for arrow keys. I do this hundreds of times a day. Selecting text, jumping between fields, navigating code. My fingers never leave the home row.
 
@@ -75,7 +75,7 @@ Each rule can be turned on or off individually. Try the full set, then pare back
 
 ## Who this is for
 
-People who use Apple JIS keyboards, code, and type in more than one language. It's opinionated: you lose Caps Lock (it becomes Escape on tap, Control on hold), you lose the physical Escape key (it becomes screenshot), and you need to learn the modifier cascade. If those tradeoffs don't work for you, individual rules still work standalone. The Vim navigation and Space-as-Control rules are useful on any keyboard, JIS or not.
+People who use Apple JIS keyboards, code, and type in more than one language. It's opinionated: you lose Caps Lock (it becomes Fn), you lose the physical Escape key (it becomes screenshot), and you need to learn the modifier cascade. If those tradeoffs don't work for you, individual rules still work standalone. The Vim navigation and Space-as-Control rules are useful on any keyboard, JIS or not.
 
 [GitHub: smnrg/HyperJIS](https://github.com/smnrg/HyperJIS)
 

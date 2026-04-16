@@ -2,7 +2,7 @@
   "title": "HyperJIS Accents: German Extension (Umlauts + Eszett)",
   "rules": [
     {
-      "description": "German umlauts (Fn + Option + a/o/u)",
+      "description": "HyperJIS: German umlauts (Fn + Option + a/o/u)",
       "manipulators": [
         {
           "type": "basic",
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "description": "German Eszett (Fn + s)",
+      "description": "HyperJIS: German Eszett (Fn + s)",
       "manipulators": [
         {
           "type": "basic",
